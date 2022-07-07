@@ -1,0 +1,96 @@
+form section>p{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+form section input[type="text"]{
+    border-radius: 0px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+form section input[type="text"]:focus{
+    outline: 3px solid #FFD1Ff;
+    border: 1px solid #faf;
+}
+
+form footer{
+    padding-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #cccccc;
+}
+
+#modal-submit-btn{
+  box-sizing: border-box;
+  height: 2rem;
+  width: 20%;
+  border: none;
+  cursor: pointer;
+  background-color: #61A0AF;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 15px;
+  margin-right: 1rem;
+}
+
+#modal-submit-btn:hover{
+  background-color: #6ea8b6;
+}
+
+form section{
+    padding: 1rem;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1040;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .modal-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1050;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .modal {
+    background: #fff;
+    border-radius: 5px;
+    width: 80%;
+    padding: 1rem;
+  }
+
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 1rem;
+  }
+
+  .modal-close-button {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #000;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+  }
+
+  .modal-close-button:hover{
+    color:#777777
+  }

@@ -1,0 +1,25 @@
+#test-container{
+  display: flex;
+  width: 100%;
+  background-color: red;
+  /* margin: auto; */
+  justify-content: center;
+  align-items: center;
+  /* background-color: #FAF; */
+  height: 100%;
+  /* font-size: 100px; */
+}
+
+#test{
+  font-size: 100px;
+  /* font-size: inherit; */
+  /* width: 10em; */
+  /* height: 10em; */
+  /* background-color: red; */
+}
+
+@media screen and (max-width: 1024px){
+  #test-container{
+    font-size: 50px;
+  }
+}

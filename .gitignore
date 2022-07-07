@@ -1,0 +1,12 @@
+*/node_modules
+*.m4a
+*.mp3
+*/__pycache__
+*.pyc
+/test
+*/test.js
+IA/
+npm-debug.log
+/tmp
+test.py
+nginx/cert

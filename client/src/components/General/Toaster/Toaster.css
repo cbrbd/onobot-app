@@ -1,0 +1,39 @@
+#toaster{
+    position: absolute;
+    top: 10%;
+    margin-top: 1px;
+    right: 0;
+    width: 100%;
+    height: 3rem;
+    overflow: hidden;
+}
+
+#toast{
+    width: fit-content;
+    padding: 0.5rem;
+    position: absolute;
+    animation: slideIn, monke;
+    animation-duration: 0.8s, 0.8s;
+    animation-delay: 0s, 4s;
+    animation-timing-function: ease-in, ease-out;
+    animation-fill-mode: forwards, forwards;
+}
+
+@keyframes slideIn{
+    0%{
+        right: 0%;
+    }
+    
+    100%{
+        right: 25%;
+    }
+}
+
+@keyframes monke {
+    0%{
+        right: 25%;
+    }
+    100%{
+        right: -25%;
+    }
+}
